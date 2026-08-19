@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_hash_pseudonym_by_nik_md5seed",
+  "source_file": "masking NIK dan isi kolom.sas",
+  "source_blob_sha": "ace16d85abadb668c4384f41973ed2171772046f",
+  "source_commit": "034acfcc97cfc755584544c3d15d7d2b71a6ce87",
+  "notes": "Third masking block (data have/hav1): the repo's most involved technique -- derives a per-NIK streaminit seed via md5(NIK) -> catt/scan -> $hex32., then a hash-object lookup keyed on NIK produces a repeatable pseudonym per unique NIK (verified: rows sharing a NIK get the same nik_masking value). Only edit: added a trailing PROC PRINT for visible output."
+}

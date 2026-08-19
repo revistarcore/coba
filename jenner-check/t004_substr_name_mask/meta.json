@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_substr_name_mask",
+  "source_file": "masking NIK dan isi kolom.sas",
+  "source_blob_sha": "ace16d85abadb668c4384f41973ed2171772046f",
+  "source_commit": "034acfcc97cfc755584544c3d15d7d2b71a6ce87",
+  "notes": "Final block in the file (data have/want + proc print): simplest masking technique, substr()-based partial name reveal (first 3 chars + asterisks for the rest) over the script's own placeholder name datalines (NamaAnda/ContohNamaLain/NamaSaya -- literal 'YourName'/'OtherNameExample'/'MyName' templates). Runs byte-identical to upstream, no edits."
+}

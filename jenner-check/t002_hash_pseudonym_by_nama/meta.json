@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_hash_pseudonym_by_nama",
+  "source_file": "masking NIK dan isi kolom.sas",
+  "source_blob_sha": "ace16d85abadb668c4384f41973ed2171772046f",
+  "source_commit": "034acfcc97cfc755584544c3d15d7d2b71a6ce87",
+  "notes": "Second masking block (data have/hav2): hash-object hash.find()/hash.add() lookup keyed on nama with a fixed streaminit(40) seed, generating a repeatable random pseudonym id (nik_masking) per unique name, plus substr-based partial name masking (nama_baru). Only edit: added a trailing PROC PRINT for visible output."
+}
