@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_nik_translate_masking",
+  "source_file": "masking NIK dan isi kolom.sas",
+  "source_blob_sha": "ace16d85abadb668c4384f41973ed2171772046f",
+  "source_commit": "034acfcc97cfc755584544c3d15d7d2b71a6ce87",
+  "notes": "First masking block (data have/havee/havee2 + closing proc sql/proc print): builds a 16-char translate-table cipher (encrypt_nik) and an asterisk mask keeping the last digit (masking_nik) from the repo's own placeholder NIK/nama datalines. One edit: the closing PROC SQL originally selected 'from kjmu', a dataset never created in the script -- corrected to 'havee2', the dataset the step actually builds, and a PROC PRINT was added on havee2 so the run has visible tabular output to pin."
+}

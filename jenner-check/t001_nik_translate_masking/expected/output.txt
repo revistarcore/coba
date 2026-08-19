@@ -1,0 +1,14 @@
+dist_nik  count_total
+--------  -----------
+       5            9
+
+  Obs               NIK       encrypt_nik       masking_nik
+-----  ----------------  ----------------  ----------------
+    1  1234567890123456  5JMEIWYPCLXZHA91  **************56
+    2  1234567890123456  5JMEIWYPCLXZHA91  **************56
+    3  9876543210987654  7PO1IKHJUL3TYF9E  **************54
+    4  9876543210987654  7PO1IKHJUL3TYF9E  **************54
+    5  9876543210987655  7PO1IKHJUL3TYF9S  **************55
+
+... 4 more observations (showing 5 of 9)
+

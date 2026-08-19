@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-08-19T15:45:00Z",
+  "_captured_run_id": "r_67098b0b6b1142ca9b80843c78a3c229",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote have (9 rows, 3 columns).",
+    "NOTE: Wrote havee (9 rows, 6 columns).",
+    "NOTE: Wrote havee2 (9 rows, 68 columns).",
+    "NOTE: PROC SQL statement used.",
+    "NOTE: PROC PRINT completed: 5 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

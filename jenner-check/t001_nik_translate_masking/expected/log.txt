@@ -1,0 +1,37 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA have
+
+NOTE: Processing inline DATALINES (9 lines)
+
+NOTE: Read 9 rows from DATALINES.
+NOTE: Wrote have (9 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=have
+
+NOTE: Read 9 rows from have.
+NOTE: Wrote have (9 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA havee
+
+
+NOTE: Read 9 rows from have.
+NOTE: Wrote havee (9 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA havee2
+
+
+NOTE: Read 9 rows from havee.
+NOTE: Wrote havee2 (9 rows, 68 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC PRINT data=havee2
+
+NOTE: PROC PRINT completed: 5 observations printed, 3 variables
